@@ -1,0 +1,69 @@
+.cursivefont {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigbrand {
+    font-size: 1.5em;
+}
+
+.centerstage {
+    margin: 0 auto;
+}
+
+.postdate {
+    text-align: center;
+}
+
+.posttitle {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.postcontent {
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+}
+
+.btn-comment {
+    position: absolute;
+    right: 0px;
+}
+
+.loader {
+    filter: hue-rotate(0deg);
+    color: linear-gradient(45deg, #0f8, #08f);
+    animation: hue 5000ms infinite linear;
+}
+
+.posttitle_post_list {
+    letter-spacing: .01em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.published_on {
+    letter-spacing: .12em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+.commentcount_post_list {
+    letter-spacing: .05em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.admin_only {
+    font-size: 1em;
+    letter-spacing: .1em;
+}
+
+@keyframes hue {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
