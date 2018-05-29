@@ -1,1 +1,1 @@
-This is a simple blog capable of full CRUD operations on posts. Only a superuser is allowed to post, edit or delete a post. Viwers are free to add comments on posts but only a superuser will have the authority to approve, discard or delete comments. 
+This is a simple blog capable of full CRUD operations on posts. Only a superuser is allowed to post, edit or delete a post. Viewers are free to add comments on posts but only a superuser has the authority to approve, discard or delete comments. 
